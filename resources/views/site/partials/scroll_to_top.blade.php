@@ -1,0 +1,1 @@
+<a href="#" class="btn hover-animate scrollToTop"><i class="fa fa-angle-up"></i></a>

@@ -1,0 +1,25 @@
+@extends('layouts.site')
+
+@section('styles')
+    @include(config('settings.theme') . '.partials.styles')
+@endsection
+
+@section('header')
+    {!! $header ?? '' !!}
+@endsection
+
+@section('content')
+    {!! $content ?? '' !!}
+@endsection
+
+@section('scroll_to_top')
+    @include(config('settings.theme') . '.partials.scroll_to_top')
+@endsection
+
+@section('footer')
+    @include(config('settings.theme') . '.partials.footer')
+@endsection
+
+@section('scripts')
+    @include(config('settings.theme') . '.partials.scripts')
+@endsection
